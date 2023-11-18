@@ -1,12 +1,12 @@
 # Airtable Icons
 
+[![pub package](https://img.shields.io/pub/v/airtable_icons.svg)](https://pub.dev/packages/airtable_icons)
+
 Unofficial Flutter package for **Airtable UI Kit icons**. Airtable UI Kit is made by [Airtable](https://www.figma.com/@airtable) and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Installation
 
-https://pub.dev/packages/airtable_icons
-
-[![pub package](https://img.shields.io/pub/v/airtable_icons.svg)](https://pub.dev/packages/airtable_icons)
+Add `airtable_icons` dependency to your Flutter project:
 
 ```yaml
 dependencies:
@@ -15,7 +15,7 @@ dependencies:
 
 ## Usage
 
-Import the package in your Flutter file and use `Icon` to get the actual icon widget:
+Import the package in your Flutter file and use one of these 2 alternatives to display your icons:
 
 ```dart
 import 'package:airtable_icons/airtable_icons.dart';
@@ -25,8 +25,8 @@ Icon _icon = Icon(AirtableIcons.android_default, size: 16.0);
 Icon _iconMicro = Icon(AirtableIcons.android_micro, size: 12.0);
 
 /// Alternative 2 - Using AirtableIcon widget:
-AirtableIcon _icon = AirtableIcon(AirtableIcons.android_default);
-AirtableIcon _iconMicro = AirtableIcon.micro(AirtableIcons.android_micro);
+Icon _icon = AirtableIcon(AirtableIcons.android_default);
+Icon _iconMicro = AirtableIcon.micro(AirtableIcons.android_micro);
 ```
 
 ## Issues
@@ -35,13 +35,14 @@ For issues, file directly in the [repository](https://github.com/hanmajid/airtab
 
 ## Icons
 
+All Airtable icons can be viewed on its Figma file [here](https://www.figma.com/community/file/862805330899066752).
 
 ## Find this library useful? ❤️
 
 Support it by joining __[stargazers](https://github.com/hanmajid/airtable_icons/stargazers)__ for this repository. ⭐️ <br>
 Also, __[follow me](https://github.com/hanmajid)__ on GitHub for my next project! 🤩
 
-# License
+## License
 
 ```xml
 Copyright 2023 hanmajid (Muhammad Farhan Majid)
