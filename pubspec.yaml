@@ -1,0 +1,27 @@
+name: airtable_icons
+description: Airtable UI Kit Icons
+version: 0.0.1
+homepage: https://github.com/hanmajid/airtable_icons
+issue_tracker: https://github.com/hanmajid/airtable_icons/issues
+repository: https://github.com/hanmajid/airtable_icons
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: AirtableIcons
+      fonts:
+        - asset: assets/AirtableIcons.ttf
+    - family: AirtableIconsMicro
+      fonts:
+        - asset: assets/AirtableIconsMicro.ttf
+
+topics:
+  - assets
+  - icons
+  - ui
