@@ -35,6 +35,8 @@ For issues, file directly in the [repository](https://github.com/hanmajid/airtab
 
 ## Icons
 
+<img src="./airtable-icons-default.png">
+
 All Airtable icons can be viewed on its Figma file [here](https://www.figma.com/community/file/862805330899066752).
 
 ## Find this library useful? ❤️

@@ -1,6 +1,6 @@
 name: airtable_icons
 description: Collection of beautiful and well-designed icons from Airtable UI Kit
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/hanmajid/airtable_icons
 issue_tracker: https://github.com/hanmajid/airtable_icons/issues
 repository: https://github.com/hanmajid/airtable_icons
@@ -25,3 +25,7 @@ topics:
   - assets
   - icons
   - ui
+
+screenshots:
+  - description: 'Default Airtable icons'
+    path: airtable-icons-default.png
