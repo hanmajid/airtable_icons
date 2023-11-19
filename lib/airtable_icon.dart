@@ -17,14 +17,60 @@ import 'package:flutter/widgets.dart';
 /// Class for a single `Icon` (not `IconData`), based on constructors.
 ///
 /// For instance:
-/// `final Icon icon = AirtableIcon(AirtableIcons.android_default);`
+/// `final Icon icon = AirtableIcon(AirtableIcons.android);`
 ///
 /// If you're looking for `IconData` instead of `Icon` objects, please see
 /// `AirtableIcons` class.
 class AirtableIcon extends Icon {
   /// Constructor fot default Airtable icons (size 16.0).
-  AirtableIcon(super.icon) : super(size: 16.0);
+  const AirtableIcon(
+    super.icon, {
+    Key? key,
+    double? size = 16.0,
+    double? fill,
+    double? weight,
+    double? grade,
+    double? opticalSize,
+    Color? color,
+    List<Shadow>? shadows,
+    String? semanticLabel,
+    TextDirection? textDirection,
+  }) : super(
+          key: key,
+          size: size,
+          fill: fill,
+          weight: weight,
+          grade: grade,
+          opticalSize: opticalSize,
+          color: color,
+          shadows: shadows,
+          semanticLabel: semanticLabel,
+          textDirection: textDirection,
+        );
 
   /// Constructor fot micro Airtable icons (size 12.0).
-  AirtableIcon.micro(super.icon) : super(size: 12.0);
+  const AirtableIcon.micro(
+    super.icon, {
+    Key? key,
+    double? size = 12.0,
+    double? fill,
+    double? weight,
+    double? grade,
+    double? opticalSize,
+    Color? color,
+    List<Shadow>? shadows,
+    String? semanticLabel,
+    TextDirection? textDirection,
+  }) : super(
+          key: key,
+          size: size,
+          fill: fill,
+          weight: weight,
+          grade: grade,
+          opticalSize: opticalSize,
+          color: color,
+          shadows: shadows,
+          semanticLabel: semanticLabel,
+          textDirection: textDirection,
+        );
 }

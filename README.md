@@ -21,12 +21,12 @@ Import the package in your Flutter file and use one of these 2 alternatives to d
 import 'package:airtable_icons/airtable_icons.dart';
 
 /// Alternative 1 - Using Icon widget:
-Icon _icon = Icon(AirtableIcons.android_default, size: 16.0);
-Icon _iconMicro = Icon(AirtableIcons.android_micro, size: 12.0);
+Icon _icon = Icon(AirtableIcons.android, size: 16.0);
+Icon _iconMicro = Icon(AirtableIcons.android, size: 12.0);
 
 /// Alternative 2 - Using AirtableIcon widget:
-Icon _icon = AirtableIcon(AirtableIcons.android_default);
-Icon _iconMicro = AirtableIcon.micro(AirtableIcons.android_micro);
+Icon _icon = AirtableIcon(AirtableIcons.android);
+Icon _iconMicro = AirtableIcon.micro(AirtableIcons.android);
 ```
 
 ## Issues
